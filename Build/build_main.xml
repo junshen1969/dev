@@ -40,7 +40,9 @@
       <arg value="-a" />
       <arg value="HTTPESQLEchoApp" />
       <arg value="-deployAsSource" />       <!-- we cannot inline artifacts in a shared library -->
-    </exec>
+      <arg value="-l" />
+      <arg value="HTTPEchoLib" />
+   	</exec>
 
     <!-- Alternative: package BAR file without building workspace
       <exec executable="mqsipackagebar">
