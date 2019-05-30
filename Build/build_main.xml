@@ -39,9 +39,6 @@
       <arg value="TestClient" />
       <arg value="-a" />
       <arg value="HTTPESQLEchoApp" />
-      <arg value="HTTPJavaEchoApp" />
-      <arg value="-l" />
-      <arg value="HTTPEchoLib" />
       <arg value="-deployAsSource" />       <!-- we cannot inline artifacts in a shared library -->
     </exec>
 
